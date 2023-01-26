@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@my-fancy-org/eslint-config-custom": "*",
+    "@my-fancy-org/tsconfig": "*",
     "next-transpile-modules": "^10.0.0"
   }
 }
