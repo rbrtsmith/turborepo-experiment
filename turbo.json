@@ -4,14 +4,13 @@
     "dev": {
       "cache": false
     },
-    "lint": {
-      "outputs": []
-    },
+    "lint": {},
     "format": {
       "outputs": []
     },
-    "format:check": {
-      "outputs": []
+    "format:check": {},
+    "clean": {
+      "cache": false
     }
   }
 }
