@@ -1,0 +1,15 @@
+{
+  "name": "@my-fancy-org/ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md}\"",
+    "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "eslint-config-custom": "*",
+    "react": "^18.2.0"
+  }
+}

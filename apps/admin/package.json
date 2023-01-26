@@ -1,0 +1,28 @@
+{
+  "name": "admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3001",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md}\"",
+    "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,md}\""
+  },
+  "dependencies": {
+    "@my-fancy-org/ui": "*",
+    "@next/font": "13.1.5",
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.27",
+    "@types/react-dom": "18.0.10",
+    "next": "13.1.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "4.9.4"
+  },
+  "devDependencies": {
+    "@my-fancy-org/eslint-config-custom": "*",
+    "next-transpile-modules": "^10.0.0"
+  }
+}
