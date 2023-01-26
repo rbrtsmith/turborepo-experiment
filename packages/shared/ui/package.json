@@ -1,9 +1,11 @@
 {
   "name": "@my-fancy-org/ui",
   "version": "0.1.0",
-  "main": "index.js",
+  "main": "index.ts",
+  "types": "index.ts",
   "scripts": {
     "lint": "eslint .",
+    "check:types": "tsc --noEmit",
     "format:fix": "prettier --write \"**/*.{js,jsx,ts,tsx,md}\"",
     "format": "prettier --check \"**/*.{js,jsx,ts,tsx,md}\"",
     "clean": "rm -rf .turbo && rm -rf node_modules"
