@@ -5,10 +5,10 @@
       "cache": false
     },
     "lint": {},
-    "format": {
+    "format": {},
+    "format:fix": {
       "outputs": []
     },
-    "format:check": {},
     "clean": {
       "cache": false
     }

@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md}\"",
-    "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,md}\"",
+    "format:fix": "prettier --write \"**/*.{js,jsx,ts,tsx,md}\"",
+    "format": "prettier --check \"**/*.{js,jsx,ts,tsx,md}\"",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist && rm -rf .next"
   },
   "dependencies": {
