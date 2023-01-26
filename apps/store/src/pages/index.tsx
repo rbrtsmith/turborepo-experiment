@@ -1,4 +1,4 @@
-import { Button } from '@my-fancy-org/ui';
+import { Button } from 'ui';
 
 export default function Home() {
   return (

@@ -1,6 +1,5 @@
-/** @type {import('next').NextConfig} */
-const withTM = require('next-transpile-modules')(['@my-fancy-org/ui']);
-module.exports = withTM({
+module.exports = {
   reactStrictMode: true,
   swcMinify: true,
-});
+  transpilePackages: ['ui'],
+};

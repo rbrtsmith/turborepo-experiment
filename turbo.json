@@ -6,6 +6,7 @@
       "persistent": true
     },
     "lint": {},
+    "check:types": {},
     "format": {},
     "format:fix": {
       "outputs": []
