@@ -11,6 +11,9 @@
     "check:types": "tsc --noEmit",
     "format:fix": "prettier --write \"**/*.{js,jsx,ts,tsx,md}\"",
     "format": "prettier --check \"**/*.{js,jsx,ts,tsx,md}\"",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist && rm -rf .next"
   },
   "dependencies": {
@@ -27,6 +30,7 @@
   },
   "devDependencies": {
     "@rbrtsmith-co/eslint-config": "*",
+    "@rbrtsmith-co/test": "*",
     "@rbrtsmith-co/tsconfig": "*"
   }
 }

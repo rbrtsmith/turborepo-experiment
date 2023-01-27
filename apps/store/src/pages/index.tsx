@@ -1,6 +1,6 @@
 import { Button } from '@rbrtsmith-co/ui';
 
-import { Hello } from '../components/hello';
+import { Hello } from '../components/Hello';
 
 export default function Home() {
   return (
