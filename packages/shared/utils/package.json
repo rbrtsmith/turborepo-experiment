@@ -17,7 +17,7 @@
   "devDependencies": {
     "@vitest/coverage-c8": "^0.28.2",
     "eslint-config-rbrtsmith-co": "*",
-    "tsconfig": "*",
+    "@rbrtsmith-co/tsconfig": "*",
     "vitest": "^0.28.2"
   }
 }

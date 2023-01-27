@@ -15,6 +15,7 @@
     "clean": "rm -rf .turbo && rm -rf node_modules"
   },
   "devDependencies": {
+    "@rbrtsmith-co/tsconfig": "*",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@vitejs/plugin-react": "^3.0.1",
@@ -22,7 +23,6 @@
     "eslint-config-rbrtsmith-co": "*",
     "jsdom": "^21.1.0",
     "react": "^18.2.0",
-    "tsconfig": "*",
     "vitest": "^0.28.2"
   }
 }
