@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
 
-import { Hello } from './Hello';
+import { HelloWorld } from './HelloWorld';
 
 test('should work as expected', () => {
-  render(<Hello />);
+  render(<HelloWorld />);
   expect(screen.getByText('Hello World')).toBeInTheDocument();
 });

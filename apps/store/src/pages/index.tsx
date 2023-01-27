@@ -1,12 +1,12 @@
 import { Button } from '@rbrtsmith-co/ui';
 
-import { Hello } from '../components/Hello';
+import { HelloWorld } from '../components/HelloWorld';
 
 export default function Home() {
   return (
     <div>
       <h1>Store</h1>
-      <Hello />
+      <HelloWorld />
       <Button>Click Me!</Button>
     </div>
   );
