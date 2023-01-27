@@ -9,7 +9,7 @@ The Monorepo consists of the following structure
   - config
     - lint — EsLint
     - Test — ViTest (base, node, ui)
-    - TypeScript (base, nextJS, react-library)
+    - TypeScript (base, nextjs, react-library)
   - shared
     - UI — React component library
     - Utils — Common utilities
