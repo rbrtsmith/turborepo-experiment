@@ -1,5 +1,5 @@
 {
-  "name": "ui",
+  "name": "utils",
   "version": "0.1.0",
   "main": "src/index.ts",
   "license": "MIT",
@@ -15,13 +15,8 @@
     "clean": "rm -rf .turbo && rm -rf node_modules"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@vitejs/plugin-react": "^3.0.1",
     "@vitest/coverage-c8": "^0.28.2",
     "eslint-config-custom": "*",
-    "jsdom": "^21.1.0",
-    "react": "^18.2.0",
     "tsconfig": "*",
     "vitest": "^0.28.2"
   }
