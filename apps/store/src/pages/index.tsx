@@ -1,4 +1,5 @@
-import { Button } from 'ui';
+import { Button } from '@rbrtsmith-co/ui';
+
 import { Hello } from '../components/hello';
 
 export default function Home() {

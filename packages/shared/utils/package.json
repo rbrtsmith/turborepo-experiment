@@ -1,5 +1,5 @@
 {
-  "name": "utils",
+  "name": "@rbrtsmith-co/utils",
   "version": "0.1.0",
   "main": "src/index.ts",
   "license": "MIT",
@@ -15,9 +15,9 @@
     "clean": "rm -rf .turbo && rm -rf node_modules"
   },
   "devDependencies": {
+    "@rbrtsmith-co/tsconfig": "*",
     "@vitest/coverage-c8": "^0.28.2",
     "eslint-config-rbrtsmith-co": "*",
-    "@rbrtsmith-co/tsconfig": "*",
     "vitest": "^0.28.2"
   }
 }
