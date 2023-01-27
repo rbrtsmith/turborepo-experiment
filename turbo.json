@@ -8,16 +8,14 @@
     "lint": {},
     "check:types": {},
     "format": {},
-    "format:fix": {
-      "outputs": []
-    },
+    "format:fix": {},
     "test": {},
     "test:watch": {
       "cache": false,
       "persistent": true
     },
     "test:coverage": {
-      "outputs": ["coverage"]
+      "outputs": ["coverage/**"]
     },
     "clean": {
       "cache": false
