@@ -3,3 +3,4 @@ coverage
 .gitignore 
 .next
 .turbo
+storybook-static

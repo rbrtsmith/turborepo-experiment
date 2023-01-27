@@ -1,5 +1,5 @@
 import * as React from 'react';
 
 export const Button = ({ children }: { children: React.ReactNode }) => {
-  return <button style={{ background: 'brown' }}>{children}</button>;
+  return <button style={{ background: 'green' }}>{children}</button>;
 };
