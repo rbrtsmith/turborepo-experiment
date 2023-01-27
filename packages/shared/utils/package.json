@@ -15,9 +15,9 @@
     "clean": "rm -rf .turbo && rm -rf node_modules"
   },
   "devDependencies": {
+    "@rbrtsmith-co/eslint-config": "*",
     "@rbrtsmith-co/tsconfig": "*",
     "@vitest/coverage-c8": "^0.28.2",
-    "eslint-config-rbrtsmith-co": "*",
     "vitest": "^0.28.2"
   }
 }

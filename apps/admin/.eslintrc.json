@@ -1,4 +1,4 @@
 {
   "root": true,
-  "extends": ["rbrtsmith-co"] // Tells ESLint to use the "eslint-config-rbrtsmith-co" package
+  "extends": ["@rbrtsmith-co/eslint-config"] // Tells ESLint to use the "eslint-config-main" package
 }
