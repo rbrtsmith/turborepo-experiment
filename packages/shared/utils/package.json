@@ -16,8 +16,10 @@
   },
   "devDependencies": {
     "@rbrtsmith-co/eslint-config": "*",
+    "@rbrtsmith-co/test": "*",
     "@rbrtsmith-co/tsconfig": "*",
     "@vitest/coverage-c8": "^0.28.2",
+    "vite": "^4.0.4",
     "vitest": "^0.28.2"
   }
 }

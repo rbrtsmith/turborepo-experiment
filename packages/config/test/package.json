@@ -1,0 +1,16 @@
+{
+  "name": "@rbrtsmith-co/test",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "format:fix": "prettier --write \"**/*.{js,jsx,ts,tsx,md}\"",
+    "format": "prettier --check \"**/*.{js,jsx,ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@rbrtsmith-co/eslint-config": "*",
+    "@rbrtsmith-co/tsconfig": "*",
+    "vitest": "^0.28.2"
+  }
+}
