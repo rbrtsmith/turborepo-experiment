@@ -1,6 +1,6 @@
 {
   "root": true,
-  "extends": ["custom"],
+  "extends": ["rbrtsmith-co"],
   "rules": {
     "@next/next/no-html-link-for-pages": "off"
   }

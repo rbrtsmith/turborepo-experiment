@@ -1,6 +1,6 @@
 {
   "root": true,
-  "extends": ["custom"], // Tells ESLint to use the "eslint-config-custom" package
+  "extends": ["rbrtsmith-co"], // Tells ESLint to use the "eslint-config-rbrtsmith-co" package
   "rules": {
     "@next/next/no-html-link-for-pages": "off"
   }

@@ -27,6 +27,6 @@
   },
   "devDependencies": {
     "tsconfig": "*",
-    "eslint-config-custom": "*"
+    "eslint-config-rbrtsmith-co": "*"
   }
 }
