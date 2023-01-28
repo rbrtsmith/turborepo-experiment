@@ -1,7 +1,7 @@
 # Monorepo with Turborepo example.
 
 This repository is an example of a monorepo with packages that are shared with apps and shared tasks (scripts) leveraging Turborepo's
-cache for significant DX improvements.
+caching mechanism for significant DX improvements.
 
 The Monorepo consists of the following structure
 
