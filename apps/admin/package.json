@@ -14,8 +14,8 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist && rm -rf .next"
   },
   "dependencies": {
-    "@rbrtsmith-co/ui": "*",
     "@next/font": "13.1.5",
+    "@rbrtsmith-co/ui": "*",
     "@types/node": "18.11.18",
     "@types/react": "18.0.27",
     "@types/react-dom": "18.0.10",

@@ -31,6 +31,9 @@ jobs:
       - name: Install dependencies
         run: yarn
 
+      - name: Check packages
+        run: yarn manypkg check
+
       - name: Check types
         run: yarn check:types
 
